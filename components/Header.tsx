@@ -13,9 +13,12 @@ const Header: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col">
-            <h1 className="text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700">
-              صيدليات المتحدة <span className="text-emerald-600">|</span> United Pharmacies
-            </h1>
+            <div className="flex items-center gap-2">
+              <h1 className="text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700">
+                صيدليات المتحدة <span className="text-emerald-600">|</span> United Pharmacies
+              </h1>
+              <span className="bg-emerald-100 text-emerald-700 text-[10px] font-black px-2 py-0.5 rounded-full">V2.0 AI</span>
+            </div>
             <p className="text-[11px] font-medium text-slate-400 uppercase tracking-widest">
               Smart Attendance Intelligence System
             </p>
@@ -23,7 +26,7 @@ const Header: React.FC = () => {
         </div>
         <div className="hidden md:flex items-center gap-2 px-4 py-2 bg-emerald-50 rounded-full border border-emerald-100">
           <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
-          <span className="text-xs font-bold text-emerald-700">النظام نشط</span>
+          <span className="text-xs font-bold text-emerald-700">النظام نشط وجاهز</span>
         </div>
       </div>
     </header>
